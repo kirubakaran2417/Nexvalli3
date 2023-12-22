@@ -50,11 +50,5 @@ public class variablesanddatatypes {
 		//char =single character
 		char mychar='a';
 		System.out.println("char:  "+mychar);
-		//boolean =true or false
-		boolean myboolean=true;
-		System.out.println("boolean:  "+myboolean);
-		
-		
-		
 	}
 }

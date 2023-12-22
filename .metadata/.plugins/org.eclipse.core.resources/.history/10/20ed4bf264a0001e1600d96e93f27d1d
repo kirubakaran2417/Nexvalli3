@@ -1,0 +1,16 @@
+package basics;
+
+public class Operators {
+
+	/*
+	 * Types of operators
+	 * 1. Arithmetic operators
+	 * 2. Assignment operators
+	 * 3. Comparison operators or relational operators
+	 * 4. Logical operators
+	 * 5. unary operators
+	 * 6. Bitwise operators
+	 */
+	
+	
+}
