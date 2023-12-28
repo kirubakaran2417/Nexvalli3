@@ -95,7 +95,7 @@ public class Operators {
 		int var1=5;
 		int var2=5;
 		
-		System.out.println("value of var1:  "+var1);
+		System.out.println("value of var1:  "+var1); 
 		//5 is displayed
 		
 		//Then var1 is increased to 6
