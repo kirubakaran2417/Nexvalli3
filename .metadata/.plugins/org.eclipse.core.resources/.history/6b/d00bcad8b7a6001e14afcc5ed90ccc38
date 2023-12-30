@@ -1,0 +1,12 @@
+package basics;
+
+public class Person {
+
+	String name;
+	int age;
+	String city;
+	String gender;
+	
+
+	
+}

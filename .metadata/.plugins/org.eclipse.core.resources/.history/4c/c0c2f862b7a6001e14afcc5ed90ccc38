@@ -1,0 +1,17 @@
+package basics;
+
+public class Main {
+	public static void main(String[] args) {
+		Person person1 = new Person();
+		person1.name = "John";
+		person1.age = 25;
+		person1.city = "New York";
+		person1.gender = "Male";
+		
+		Person person2 = new Person();
+		person2.name = "Jane";
+		person2.age = 30;
+		person2.city = "London";
+		person2.gender = "Female";
+	}
+}

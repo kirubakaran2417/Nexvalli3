@@ -1,0 +1,21 @@
+package basics;
+
+public class Looping {
+	//Looping is a block of code that will be executed repeatedly until a certain condition holds false
+	
+	/*
+	 *while
+	 *do while
+	 *for loop
+	 */
+	
+	//loops are also known as iterating statements
+	//Imagine you are asked to print the calue of 2²,2^3....you can declare x=2
+	public static void main(String[] args) {
+		int x=2;
+		System.out.print(x+" ");
+		x*=2;   //x=x*2
+		System.out.print(x+" ");
+	}
+	
+}
