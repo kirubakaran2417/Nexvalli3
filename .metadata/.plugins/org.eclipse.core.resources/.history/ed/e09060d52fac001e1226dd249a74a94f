@@ -1,0 +1,21 @@
+package basics;
+
+public class StaticKeywordExample {
+
+	 int a;
+	 int b;
+	
+	public void display() {
+		System.out.println("The value of a and b is: "+a+" "+b);
+	}
+	public static void display2() {
+		System.out.println("The value of a and b is: "+a+" "+b);
+	}
+	public static void main(String[] args) {
+
+	display2();
+	
+	
+	
+	}
+}

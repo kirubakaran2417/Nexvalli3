@@ -1,0 +1,17 @@
+package basics;
+
+public class Constructors {
+
+	String name;
+//	constructor sholud have same name as class name
+//	it should not have return type as methods
+//	it is mainly used for initializing data members
+	Constructors(){
+		name="aabreeq";
+	}
+	public static void main(String[] args) {
+		//constructor is invoked while creating the object
+		Constructors cs=new Constructors();
+		System.out.println("The name is: "+cs.name);
+	}
+}

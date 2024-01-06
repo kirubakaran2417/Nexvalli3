@@ -2,33 +2,21 @@ package basics;
 
 public class Person {
 
-	String name;
-	int age;
-	String city;
-	String gender;
+	String name="Tony";
+	int age=25;
+	String city="Delhi";
+	String gender="Male";
 	
 	public void eat() {
-		System.out.println("Eating");
+		System.out.println(name+" is Eating");
 	}
 	
 	public void sleep() {
-		System.out.println("Sleeping");
+		System.out.println(name +"is Sleeping");
 	}
 	
-	public static void main(String[] args) {
-		Person person1 = new Person();
-		person1.name = "John";
-		person1.age = 25;
-		person1.city = "New York";
-		person1.gender = "Male";
-		System.out.println(person1.name+" "+person1.age+" "+person1.city+" "+person1.gender);
-		
-		Person person2 = new Person();
-		person2.name = "Jane";
-		person2.age = 30;
-		person2.city = "London";
-		person2.gender = "Female";
-		System.out.println(person2.name+" "+person2.age+" "+person2.city+" "+person2.gender);
+	public void walk() {
+		System.out.println("Walking");
 	}
 	
 }

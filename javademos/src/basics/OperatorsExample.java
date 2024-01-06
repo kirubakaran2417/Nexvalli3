@@ -17,6 +17,6 @@ public class OperatorsExample {
 		
 		//Total marks: 450
 		//Average marks: 90
-	1
+
 	}
 }

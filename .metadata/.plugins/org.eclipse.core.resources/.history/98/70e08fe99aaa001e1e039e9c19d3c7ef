@@ -1,0 +1,22 @@
+package basics;
+
+public class Person {
+
+	String name;
+	int age;
+	String city;
+	String gender;
+	
+	public void eat() {
+		System.out.println(name+" is Eating");
+	}
+	
+	public void sleep() {
+		System.out.println(name +"is Sleeping");
+	}
+	
+	public void walk() {
+		System.out.println("Walking");
+	}
+	
+}

@@ -1,0 +1,10 @@
+package basics;
+
+public class BankAccount {
+
+	String accountHolderName;
+	int accountNumber;
+	double accountBalance;
+	
+	
+}

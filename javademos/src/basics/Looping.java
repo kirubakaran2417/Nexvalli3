@@ -40,9 +40,7 @@ public class Looping {
 		for(int k=0;k<5;k++) {
 			System.out.println(k);
 		}
-		
-		5
-		5*4*3*2*1
+
 	}
 	
 }
