@@ -1,0 +1,10 @@
+package basics;
+
+public class ArraysExample {
+	//Array-data structure-that stores elements of the same type
+	//How to declare an array  ?--datatype[] arrayName;
+	int[] num;
+	num=new int[6];
+	
+	
+}

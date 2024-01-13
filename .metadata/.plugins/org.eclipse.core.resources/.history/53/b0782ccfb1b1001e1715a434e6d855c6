@@ -1,0 +1,8 @@
+package stringDemos;
+
+public class StringMethods {
+	public static void main(String[] args) {
+		//initializing a sample string
+		
+	}
+}

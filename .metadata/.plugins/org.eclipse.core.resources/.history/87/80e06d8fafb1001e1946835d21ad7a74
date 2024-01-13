@@ -1,0 +1,8 @@
+package stringDemos;
+
+public class StringDemos {
+
+	public static void main(String[] args) {
+		
+	}
+}
