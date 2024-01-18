@@ -41,10 +41,6 @@ public class StringMethods {
 		System.out.println("The original string is: "+stringwithspaces);
 		String trimmedString=stringwithspaces.trim();
 		System.out.println("The trimmed string is: "+trimmedString);
-		//reverse the characters in this string
-		String reversedString=new StringBuffer(sampleString).reverse().toString();
-		System.out.println("The reversed string is: "+reversedString);
-
 		
 	}
 }

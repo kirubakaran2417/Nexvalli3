@@ -24,6 +24,5 @@ public class StringBufferDemos {
 		//6.setCharAt()-Replaces the character at the specified index
 		sb.setCharAt(7, '!');
 		System.out.println(sb);
-		
 	}
 }
