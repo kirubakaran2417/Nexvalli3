@@ -1,0 +1,9 @@
+package encapsulation;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Perimeter p = new Perimeter(10, 20);
+		p.getPerimeter();
+	}
+}

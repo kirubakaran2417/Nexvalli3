@@ -1,0 +1,23 @@
+package interfacedemos;
+
+public class Loan implements Home,Car,Education {
+
+	@Override
+	public void eduloan() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void carloan() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void homeloan() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

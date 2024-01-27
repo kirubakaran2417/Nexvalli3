@@ -1,0 +1,8 @@
+package inheritance;
+
+public class Baseclass {
+
+	int num=25;
+	
+	pub
+}

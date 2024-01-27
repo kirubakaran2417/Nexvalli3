@@ -1,0 +1,12 @@
+package encapsulation;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.name = "aabreeq";
+		employee.age = 22;
+		employee.salary = 50000.00;
+		System.out.println(employee.name);
+	}
+}

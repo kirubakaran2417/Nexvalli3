@@ -1,0 +1,11 @@
+package encapsulation;
+
+public class Employee {
+
+	//private variables
+	private String name;
+	private int age;
+	private double salary;
+
+	
+}

@@ -1,0 +1,6 @@
+package abstraction;
+
+public interface Rectangle {
+
+	void calc(int l,int b);
+}

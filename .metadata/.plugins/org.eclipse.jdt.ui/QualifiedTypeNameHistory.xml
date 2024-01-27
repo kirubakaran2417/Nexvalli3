@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="basics.Constructors"/>
     <fullyQualifiedTypeName name="basics.BankAccount"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="polymorphism.Square"/>
 </qualifiedTypeNameHistroy>

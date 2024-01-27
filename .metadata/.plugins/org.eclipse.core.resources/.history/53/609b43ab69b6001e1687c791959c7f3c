@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Child extends Parent {
+
+	int c=a+b;
+		
+	public static void main(String[] args) {
+		Child c = new Child();
+		c.display();
+	}
+}

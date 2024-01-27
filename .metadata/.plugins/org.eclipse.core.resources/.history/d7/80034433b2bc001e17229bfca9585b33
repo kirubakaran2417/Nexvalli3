@@ -1,0 +1,23 @@
+package interfacedemos;
+
+public class Loan implements Home,Car,Education {
+
+	@Override
+	public void eduloan() {
+		System.out.println("Rate of interest on edu loan is 7.5%");
+		
+	}
+
+	@Override
+	public void carloan() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void homeloan() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
