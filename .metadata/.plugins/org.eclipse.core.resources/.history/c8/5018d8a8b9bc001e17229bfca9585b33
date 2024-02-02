@@ -1,0 +1,20 @@
+package interfacedemos;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Loan l = new Loan();
+		l.eduloan();
+		l.carloan();
+		l.homeloan();
+	}
+}
+public class MyClass {
+    private String[] myArray;
+
+    public MyClass() {
+        myArray = new String[5];
+    }
+
+    // Other methods and constructors can be added here
+}
