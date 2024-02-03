@@ -58,5 +58,8 @@ public class Arraylistdemo {
 		for(String str2:list1) {
 			System.out.println(str2);
 		}
+
+		//create an integer arraylist and store elements in it from  1 to 20(you can use loop also to add elements)
+		//print the elements which is in even position 
 	}
 }
