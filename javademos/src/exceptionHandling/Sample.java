@@ -17,3 +17,6 @@ public class Sample {
 		System.out.println("Byee");
 	}
 }
+
+//full form of jar is
+//jar file->java archive resource
