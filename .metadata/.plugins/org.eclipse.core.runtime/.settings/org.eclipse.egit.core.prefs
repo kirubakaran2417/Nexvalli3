@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=D\:\\Workspaces\\Nexvali3\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=D\:\\Workspaces\\UK-SDET\\.git;D\:\\Workspaces\\Nexvali3\\.git;
+GitRepositoriesView.GitDirectories.relative=D\:\\Workspaces\\UK-SDET\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
