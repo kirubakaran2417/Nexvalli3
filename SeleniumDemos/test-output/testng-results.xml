@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-25T23:43:13 IST" name="Default suite" finished-at="2024-03-25T23:43:20 IST" duration-ms="7071">
+  <suite started-at="2024-03-30T23:21:53 IST" name="Default suite" finished-at="2024-03-30T23:21:53 IST" duration-ms="75">
     <groups>
     </groups>
-    <test started-at="2024-03-25T23:43:13 IST" name="Default test" finished-at="2024-03-25T23:43:20 IST" duration-ms="7071">
-      <class name="reportsample.SampleTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:reportsample.SampleTest@5fe94a96]" started-at="2024-03-25T23:43:13 IST" name="beforeTest" finished-at="2024-03-25T23:43:15 IST" duration-ms="2681" status="PASS">
+    <test started-at="2024-03-30T23:21:53 IST" name="Default test" finished-at="2024-03-30T23:21:53 IST" duration-ms="75">
+      <class name="extentreportexample.SampleTest">
+        <test-method signature="testMethod1()[pri:0, instance:extentreportexample.SampleTest@4f83df68]" started-at="2024-03-30T23:21:53 IST" name="testMethod1" finished-at="2024-03-30T23:21:53 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="test()[pri:0, instance:reportsample.SampleTest@5fe94a96]" started-at="2024-03-25T23:43:15 IST" name="test" finished-at="2024-03-25T23:43:17 IST" duration-ms="1993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test1()[pri:0, instance:reportsample.SampleTest@5fe94a96]" started-at="2024-03-25T23:43:17 IST" name="test1" finished-at="2024-03-25T23:43:19 IST" duration-ms="1867" status="FAIL">
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:extentreportexample.SampleTest@4f83df68]" started-at="2024-03-30T23:21:53 IST" name="testMethod2" finished-at="2024-03-30T23:21:53 IST" duration-ms="4" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
-at reportsample.SampleTest.test1(SampleTest.java:25)
+at extentreportexample.SampleTest.testMethod2(SampleTest.java:15)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -51,8 +47,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- reportsample.SampleTest -->
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- extentreportexample.SampleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
