@@ -1,7 +1,12 @@
 package base;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,14 +15,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ResuableFunctions {
 
-	private WebDriver driver;
+	private static WebDriver driver;
 	private WebDriverWait wait;
 	
 	public ResuableFunctions(WebDriver driver) {
 		this.driver=driver;
 		wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 	}
-	
+	public static WebDriver invokeBrowser() {
+		return driver=DriverSetup.invokeBrowser();
+	}
 	//method to open a website
 	public void openWebsite(String url) {
 		driver.get(url);
@@ -51,5 +58,15 @@ public class ResuableFunctions {
 	public void closeBrowser() {
 		
 		driver.quit();
+	}
+	public static void takeScreenshot(String filepath) {
+		TakesScreenshot takeScreenShot = (TakesScreenshot) driver;
+		File srcFile = takeScreenShot.getScreenshotAs(OutputType.FILE);
+		File destFile = new File(filepath);
+		try {
+			FileUtils.copyFile(srcFile, destFile);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }

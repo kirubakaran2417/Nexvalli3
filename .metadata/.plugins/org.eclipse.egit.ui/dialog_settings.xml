@@ -6,9 +6,11 @@
 		<item value="bitbucket.org"/>
 	</list>
 	<list key="CommitDialog.authorValues">
+		<item value="kirubakaran &lt;k.kirubakaran@stackroute.in&gt;"/>
 		<item value="k.kirubakaran &lt;k.kirubakaran@stackroute.in&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="kirubakaran &lt;k.kirubakaran@stackroute.in&gt;"/>
 		<item value="k.kirubakaran &lt;k.kirubakaran@stackroute.in&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
